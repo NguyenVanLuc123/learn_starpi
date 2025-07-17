@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_about_statistic_counter_s",
+  "info": {
+    "displayName": "Statistic Counter ",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "decimal"
+    },
+    "lable": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

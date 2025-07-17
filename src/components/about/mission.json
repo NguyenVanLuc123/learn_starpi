@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_about_mission_s",
+  "info": {
+    "displayName": "mission ",
+    "icon": "heart"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

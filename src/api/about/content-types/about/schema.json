@@ -17,7 +17,37 @@
     },
     "blocks": {
       "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+      "components": [
+        "shared.media",
+        "shared.quote",
+        "shared.rich-text",
+        "shared.slider"
+      ]
+    },
+    "mission": {
+      "type": "component",
+      "component": "about.mission",
+      "repeatable": false
+    },
+    "vision": {
+      "type": "component",
+      "component": "about.vision",
+      "repeatable": false
+    },
+    "coreValue": {
+      "type": "component",
+      "component": "about.core-value",
+      "repeatable": false
+    },
+    "video": {
+      "type": "component",
+      "component": "about.video",
+      "repeatable": false
+    },
+    "statisticCounter": {
+      "type": "component",
+      "component": "about.statistic-counter",
+      "repeatable": false
     }
   }
 }
