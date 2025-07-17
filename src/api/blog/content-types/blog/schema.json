@@ -27,9 +27,6 @@
         "audios"
       ]
     },
-    "content": {
-      "type": "blocks"
-    },
     "team": {
       "type": "relation",
       "relation": "manyToOne",
@@ -38,6 +35,11 @@
     },
     "isFeatured": {
       "type": "boolean"
+    },
+    "content": {
+      "type": "component",
+      "component": "blog.content-block",
+      "repeatable": true
     }
   }
 }

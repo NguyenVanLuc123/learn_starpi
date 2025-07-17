@@ -61,6 +61,18 @@ export interface AboutVision extends Struct.ComponentSchema {
   };
 }
 
+export interface BlogContentBlock extends Struct.ComponentSchema {
+  collectionName: 'components_blog_content_blocks';
+  info: {
+    displayName: 'ContentBlock';
+    icon: 'layer';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    text: Schema.Attribute.Blocks;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -155,6 +167,7 @@ declare module '@strapi/strapi' {
       'about.statistic-counter': AboutStatisticCounter;
       'about.video': AboutVideo;
       'about.vision': AboutVision;
+      'blog.content-block': BlogContentBlock;
       'shared.media': SharedMedia;
       'shared.mission': SharedMission;
       'shared.quote': SharedQuote;
