@@ -14,10 +14,10 @@
     "name": {
       "type": "string"
     },
-    "posittion": {
+    "position": {
       "type": "string"
     },
-    "avartar": {
+    "avatar": {
       "type": "media",
       "multiple": true,
       "allowedTypes": [

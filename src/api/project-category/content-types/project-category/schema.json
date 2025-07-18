@@ -17,7 +17,7 @@
     "slug": {
       "type": "uid"
     },
-    "descriptionde": {
+    "description": {
       "type": "string"
     },
     "projects": {
